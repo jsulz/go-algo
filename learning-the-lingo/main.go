@@ -1,12 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Because it should all begin here
 func main() {
 	fmt.Println("Hello World")
 }
 
+/*
+Longer comments. Ahhhhhhh, I've missed this style of comment blocks.
+*/
 func language_characteristics() {
 	creators := "Google Developers"
 	benefits := [6]string{"concurrent by default", "garbage collected", "type safety", "rapid compilation", "fully compiled", "ease of use"}
